@@ -4,10 +4,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Chapter2
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTest3
     {
         [TestMethod]
-        public void C2Q1()
+        public void C2Q4()
         {
         }
     }
