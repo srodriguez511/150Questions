@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{79FBA131-3302-4CA6-8884-0A52D9FA4756}</ProjectGuid>
+    <ProjectGuid>{A194CEC1-671F-4C78-895E-6836FDA7050B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chapter2</RootNamespace>
-    <AssemblyName>Chapter2</AssemblyName>
+    <RootNamespace>Chapter4</RootNamespace>
+    <AssemblyName>Chapter4</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,12 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MyLinkedList.cs" />
-    <Compile Include="Q1.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q2.cs" />
-    <Compile Include="Q3.cs" />
+    <Compile Include="BinarySearchTree.cs" />
     <Compile Include="Q4.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -22,6 +22,7 @@ namespace LinkList
             head = null;
         }
 
+
         public void DeleteMiddle(Node middle)
         {
             if (middle == null || middle.Next == null)
@@ -178,7 +179,7 @@ namespace LinkList
             var curr = head;
             Node trailingPtr = head;
 
-            int count =0;
+            int count = 0;
             while (count != N)
             {
                 curr = curr.Next;
